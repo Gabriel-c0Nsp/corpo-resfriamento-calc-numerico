@@ -15,6 +15,9 @@ def lagrange(x, y, ponto):
     )
 
 def gerar_curva(x, y, quantidade=500):
+    """
+    Pequeno helper criado para preparar um gráfico.
+    """
 
     eixo_x = linspace(min(x), max(x), quantidade)
 

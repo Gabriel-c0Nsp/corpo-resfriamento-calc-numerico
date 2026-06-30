@@ -73,6 +73,9 @@ def erro_quadratico_medio(
 
 
 def gerar_curva(tempos, temperatura_ambiente, coeficientes, quantidade=500):
+    """
+    Helper para preparar gráfico
+    """
     eixo_x = np.linspace(min(tempos), max(tempos), quantidade)
 
     eixo_y = [
