@@ -19,15 +19,15 @@ def mmq_linear(x, y):
     """
 
     n = len(x)
-    soma_x = sum(x)
-    soma_y = sum(y)
+    soma_x = somatorio(x)
+    soma_y = somatorio(y)
     
-    soma_xy = sum(
+    soma_xy = somatorio(
         xi * yi
         for xi, yi in zip(x, y)
     )
 
-    soma_x2 = sum(
+    soma_x2 = somatorio(
         xi ** 2
         for xi in x
     )

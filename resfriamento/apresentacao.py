@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import interpolacao
 import mmq
 
-TEMPERATURA_AMBIENTE = 25
+TEMPERATURA_AMBIENTE = 27
 
 def executar(tempos, temperaturas):
     x_interp, y_interp = interpolacao.gerar_curva(
